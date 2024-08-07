@@ -1,0 +1,43 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: hsl(191, 86%, 44%);
+  padding: 20px;
+  text-transform: uppercase;
+}
+
+ .tital{
+  margin-bottom: 20px;
+
+ }
+.input-group{
+  margin: 20px; 0;
+}
+
+.input-group label{
+  display: inline-block;
+  margin-bottom: 10px;
+
+}
+
+.input-group p{
+  font-size: 15px;
+  color: rgb(227, 234, 231);
+  visibility: hidden;
+}
+
+#submit{
+  width: 100%;
+  padding: 10px;
+  font-size: 20px;
+  background-color: blue;
+}
